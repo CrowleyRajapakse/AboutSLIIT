@@ -92,7 +92,9 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(this,Centers.class);
             startActivity(intent);
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_location) {
+            Intent intent = new Intent(this,Location.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_share) {
 
