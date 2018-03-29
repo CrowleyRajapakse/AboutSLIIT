@@ -27,7 +27,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Prof. Lalith Gamage"
+                android:text="@string/chancellor_page_name"
                 android:textColor="#fff"
                 android:textStyle="bold"
                 android:textSize="15sp"/>
@@ -52,35 +52,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Photos"
+                        android:text="@string/chancellor_page_photos"
                         android:textSize="15sp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="125"
-                        android:textSize="15sp"
-                        android:textStyle="bold"
-                        android:paddingTop="10dp"
-                        android:textColor="@color/startblue"
-                        />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_gravity="center"
-                    android:orientation="vertical"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="match_parent">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Followers"
-                        android:textSize="15sp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="2508"
+                        android:text="@string/chancellor_page_photos_value"
                         android:textSize="15sp"
                         android:textStyle="bold"
                         android:paddingTop="10dp"
@@ -96,13 +74,35 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Following"
+                        android:text="@string/chancellor_page_follwers"
                         android:textSize="15sp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="834"
+                        android:text="@string/chancellor_page_followers_value"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp"
+                        android:textColor="@color/startblue"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chancellor_page_follwing"
+                        android:textSize="15sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chancellor_page_following_value"
                         android:textSize="15sp"
                         android:textStyle="bold"
                         android:paddingTop="10dp"
@@ -136,7 +136,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="lalith.g@sliit.lk"/>
+                android:text="@string/chancellor_page_email"/>
         </LinearLayout>
         <LinearLayout
             android:layout_marginTop="15dp"
@@ -154,7 +154,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="+94717313761"/>
+                android:text="@string/chancellor_page_phone"/>
         </LinearLayout>
         <LinearLayout
             android:layout_marginTop="15dp"
@@ -172,7 +172,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="Add to group"/>
+                android:text="@string/chancellor_page_group"/>
         </LinearLayout>
         <LinearLayout
             android:layout_marginTop="15dp"
@@ -190,7 +190,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="Show all comments"/>
+                android:text="@string/chancellor_page_messenger"/>
         </LinearLayout>
 
     </LinearLayout>
@@ -201,7 +201,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Follow Me"
+        android:text="@string/chancellor_page_button"
         />
 
 </LinearLayout>

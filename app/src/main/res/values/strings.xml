@@ -17,4 +17,54 @@
     <string name="contact_form_post_message">Please wait! We\'re sending your message to the marketing department...</string>
     <string name="contact_posted">Your message has been successfully delivered.</string>
 
+    <string name="chancellor_page_name">Prof. Lalith Gamage</string>
+    <string name="chancellor_page_photos">Photos</string>
+    <string name="chancellor_page_photos_value">125</string>
+    <string name="chancellor_page_follwers">Followers</string>
+    <string name="chancellor_page_followers_value">2508</string>
+    <string name="chancellor_page_follwing">Following</string>
+    <string name="chancellor_page_following_value">834</string>
+    <string name="chancellor_page_email">lalith.g@sliit.lk</string>
+    <string name="chancellor_page_phone">+94717313761</string>
+    <string name="chancellor_page_group">Add to group</string>
+    <string name="chancellor_page_messenger">Messenger</string>
+    <string name="chancellor_page_button">Follow Me</string>
+
+    <string name="splash_screen_developer">FSOCIETY2.0 Developers</string>
+
+    <string name="malabe_center_name">Malabe Main Campus</string>
+    <string name="malabe_center_student">Students</string>
+    <string name="malabe_center_student_value">8000</string>
+    <string name="malabe_center_academic">Academic Staff</string>
+    <string name="malabe_center_academic_value">150</string>
+    <string name="malabe_center_lab">Lab Facilities</string>
+    <string name="malabe_center_lab_value">20</string>
+    <string name="malabe_center_email">info@sliit.lk</string>
+    <string name="malabe_center_phone">+94(0)11 241 3900</string>
+    <string name="malabe_center_address">SLIIT Malabe Campus,New Kandy Road,Malabe.</string>
+    <string name="malabe_center_facilities">Software design and development Division \nResearch and development incubator \nSLIIT Research Centre</string>
+
+    <string name="metro_center_name">Metro Center</string>
+    <string name="metro_center_student">Students</string>
+    <string name="metro_center_student_value">1500</string>
+    <string name="metro_center_academic">Academic Staff</string>
+    <string name="metro_center_academic_value">30</string>
+    <string name="metro_center_lab">Lab Facilities</string>
+    <string name="metro_center_lab_value">5</string>
+    <string name="metro_center_email">info@sliit.lk</string>
+    <string name="metro_center_phone">+94(0)11 230 1904</string>
+    <string name="metro_center_address">SLIIT Metropolitan Campus,BoC Merchant Tower# 28, St Michael’s Road,Colombo 03.</string>
+    <string name="metro_center_facilities">Study and Research Center with Foreign Degree Programs</string>
+
+    <string name="matara_center_name">Matara Center</string>
+    <string name="matara_center_student">Students</string>
+    <string name="matara_center_student_value">200</string>
+    <string name="matara_center_academic">Academic Staff</string>
+    <string name="matara_center_academic_value">15</string>
+    <string name="matara_center_lab">Lab Facilities</string>
+    <string name="matara_center_lab_value">2</string>
+    <string name="matara_center_email">infomatara@sliit.lk</string>
+    <string name="matara_center_phone">+94(0)41 222 2958</string>
+    <string name="matara_center_address">SLIIT Matara Centre,No. 24, E.H.Cooray Building, AnagarikaDharmapalaMawatha, Matara.</string>
+    <string name="matara_center_facilities">Study only</string>
 </resources>

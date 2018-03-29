@@ -28,7 +28,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Malabe Main Campus"
+                android:text="@string/malabe_center_name"
                 android:textColor="#fff"
                 android:textStyle="bold"
                 android:textSize="15sp"/>
@@ -53,35 +53,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Students"
+                        android:text="@string/malabe_center_student"
                         android:textSize="15sp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="8000"
-                        android:textSize="15sp"
-                        android:textStyle="bold"
-                        android:paddingTop="10dp"
-                        android:textColor="@color/startblue"
-                        />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_gravity="center"
-                    android:orientation="vertical"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:layout_height="match_parent">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Academic Staff"
-                        android:textSize="15sp"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="150"
+                        android:text="@string/malabe_center_student_value"
                         android:textSize="15sp"
                         android:textStyle="bold"
                         android:paddingTop="10dp"
@@ -97,13 +75,35 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Lab Facilities"
+                        android:text="@string/malabe_center_academic"
                         android:textSize="15sp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="20"
+                        android:text="@string/malabe_center_academic_value"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp"
+                        android:textColor="@color/startblue"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/malabe_center_lab"
+                        android:textSize="15sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/malabe_center_lab_value"
                         android:textSize="15sp"
                         android:textStyle="bold"
                         android:paddingTop="10dp"
@@ -120,7 +120,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="25dp"
         >
         <LinearLayout
             android:orientation="horizontal"
@@ -137,7 +137,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="info@sliit.lk"/>
+                android:text="@string/malabe_center_email"/>
         </LinearLayout>
         <LinearLayout
             android:layout_marginTop="15dp"
@@ -155,7 +155,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="+94(0)11 241 3900"/>
+                android:text="@string/malabe_center_phone"/>
         </LinearLayout>
         <LinearLayout
             android:layout_marginTop="15dp"
@@ -173,7 +173,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="SLIIT Malabe Campus,New Kandy Road,Malabe."/>
+                android:text="@string/malabe_center_address"/>
         </LinearLayout>
         <LinearLayout
             android:layout_marginTop="15dp"
@@ -191,9 +191,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="Software design and development Division
-Research and development incubator
-SLIIT Research Centre"/>
+                android:text="@string/malabe_center_facilities"/>
         </LinearLayout>
 
     </LinearLayout>
