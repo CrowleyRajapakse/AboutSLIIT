@@ -39,7 +39,7 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".AcademicStaff" />
+        <activity android:name=".ViceChancellor" />
         <activity android:name=".ContactUs" />
         <activity
             android:name=".Centers"
@@ -71,6 +71,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.fsociety2.aboutsliit.MainActivity" />
         </activity>
+        <activity android:name=".AcademicStaff"></activity>
     </application>
 
 </manifest>

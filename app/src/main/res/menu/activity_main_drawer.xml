@@ -13,6 +13,10 @@
             android:icon="@drawable/ic_school_black_24dp"
             android:title="Vice Chancellor" />
         <item
+            android:id="@+id/nav_staff"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Academic Staff" />
+        <item
             android:id="@+id/nav_centers"
             android:icon="@drawable/ic_business_center_black_24dp"
             android:title="Centers" />

@@ -1,70 +1,35 @@
 package com.fsociety2.aboutsliit;
 
-import android.content.Intent;
-import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class AcademicStaff extends AppCompatActivity {
 
-    Button btnFollowMe;
-    TextView txtMessenger;
-    TextView txtAddToGroup;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_academic_staff);
+        ListView listView = (ListView)findViewById(R.id.list_view);
+        ViewGroup headerView = (ViewGroup)getLayoutInflater().inflate(R.layout.header_view_layout, listView, false);
+        listView.addHeaderView(headerView);
 
+        DBHelper helper = new DBHelper(this);
+        AcademicStaffModel sample1 = new AcademicStaffModel(0,"Professor","Lalith Gamage","President");
+        AcademicStaffModel sample2 = new AcademicStaffModel(0, "Professor", "Lakshman Rathnayake", "Chairman");
+        helper.save(sample1);
+        helper.save(sample2);
 
-        btnFollowMe =  findViewById(R.id.follow_me);
-        txtMessenger = findViewById(R.id.messenger);
-        txtAddToGroup = findViewById(R.id.addtogroup);
+        List<AcademicStaffModel> list = helper.readAll();
 
-        btnFollowMe.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                Intent shareIntent = new Intent(Intent.ACTION_SEND);
-                shareIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                shareIntent.setType("text/plain");
-                shareIntent.putExtra(android.content.Intent.EXTRA_TEXT, "Hey, i need to follow you!");
-                startActivity(shareIntent);
-
-            }
-        });
-
-
-        txtMessenger.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                Intent shareIntent = new Intent(Intent.ACTION_SEND);
-                shareIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                shareIntent.setType("text/plain");
-                shareIntent.putExtra(android.content.Intent.EXTRA_TEXT, "Hey, i need to chat with you!");
-                startActivity(shareIntent);
-
-            }
-        });
-
-
-        txtAddToGroup.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                Intent shareIntent = new Intent(Intent.ACTION_SEND);
-                shareIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                shareIntent.setType("text/plain");
-                shareIntent.putExtra(android.content.Intent.EXTRA_TEXT, "Prof.Lalith Gamage");
-                startActivity(shareIntent);
-
-            }
-        });
+        StaffListAdapter adapter = new StaffListAdapter(this, R.layout.adapter_view_layout, (ArrayList<AcademicStaffModel>) list);
+        listView.setAdapter(adapter);
 
     }
-
-
 }
