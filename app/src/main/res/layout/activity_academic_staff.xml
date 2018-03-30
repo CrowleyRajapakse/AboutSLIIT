@@ -192,6 +192,7 @@
                         android:src="@drawable/ic_group_add_black_24dp" />
 
                     <TextView
+                        android:id="@+id/addtogroup"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -213,6 +214,7 @@
                         android:src="@drawable/ic_forum_black_24dp" />
 
                     <TextView
+                        android:id="@+id/messenger"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -224,6 +226,7 @@
             </LinearLayout>
 
             <Button
+                android:id="@+id/follow_me"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
