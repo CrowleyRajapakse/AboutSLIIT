@@ -67,4 +67,7 @@
     <string name="matara_center_phone">+94(0)41 222 2958</string>
     <string name="matara_center_address">SLIIT Matara Centre,No. 24, E.H.Cooray Building, AnagarikaDharmapalaMawatha, Matara.</string>
     <string name="matara_center_facilities">Study only</string>
+
+    <string name="content_main_name">Sri Lanka Institute of Information Technology</string>
+    <string name="content_main_desc">We are a leading non-state degree awarding institute approved by the University Grants Commission under the Universities Act. We are a member of the Association of Commonwealth Universities.</string>
 </resources>
