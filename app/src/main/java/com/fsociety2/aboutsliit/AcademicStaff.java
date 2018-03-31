@@ -21,10 +21,10 @@ public class AcademicStaff extends AppCompatActivity {
         listView.addHeaderView(headerView);
 
         DBHelper helper = new DBHelper(this);
-        AcademicStaffModel sample1 = new AcademicStaffModel(0,"Professor","Lalith Gamage","President");
+        /*AcademicStaffModel sample1 = new AcademicStaffModel(0,"Professor","Lalith Gamage","President");
         AcademicStaffModel sample2 = new AcademicStaffModel(0, "Professor", "Lakshman Rathnayake", "Chairman");
         helper.save(sample1);
-        helper.save(sample2);
+        helper.save(sample2);*/
 
         List<AcademicStaffModel> list = helper.readAll();
 
