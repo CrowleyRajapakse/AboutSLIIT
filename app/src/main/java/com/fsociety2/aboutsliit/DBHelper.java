@@ -37,6 +37,10 @@ public class DBHelper extends SQLiteOpenHelper{
 
     }
 
+    /**
+     * save academic staff model
+     * @param model
+     */
     public void save(AcademicStaffModel model){
 
         ContentValues cv = new ContentValues();
@@ -48,6 +52,18 @@ public class DBHelper extends SQLiteOpenHelper{
         db.close();
     }
 
+    /**
+     * delete records
+     */
+    public void delete(){
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.delete(TABLE_ACADEMIC_STAFF, null,null);
+    }
+
+    /**
+     * returns all data from academic_staff table
+     * @return
+     */
     public List<AcademicStaffModel> readAll(){
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cur = db.rawQuery("SELECT * FROM academic_staff",null);
