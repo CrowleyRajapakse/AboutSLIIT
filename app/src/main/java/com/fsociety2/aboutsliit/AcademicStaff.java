@@ -100,7 +100,7 @@ public class AcademicStaff extends AppCompatActivity {
                 if (newText != null && !newText.isEmpty()) {
                     List<AcademicStaffModel> searchList = new ArrayList<AcademicStaffModel>();
                     for (AcademicStaffModel model : list) {
-                        if (model.getName().toLowerCase().contains(newText) || model.getPosition().toLowerCase().contains(newText) ) {
+                        if (model.getName().toLowerCase().contains(newText) || model.getPosition().toLowerCase().contains(newText)) {
                             searchList.add(model);
                         }
 
@@ -117,6 +117,5 @@ public class AcademicStaff extends AppCompatActivity {
 
         return super.onCreateOptionsMenu(menu);
     }
-
 
 }
